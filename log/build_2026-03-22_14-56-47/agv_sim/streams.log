@@ -1,0 +1,40 @@
+[0.018s] Invoking command in '/home/thainguyen1233/ros2_ws2/build/agv_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/thainguyen1233/ros2_ws2/build/agv_sim -- -j8 -l8
+[0.062s] Invoked command in '/home/thainguyen1233/ros2_ws2/build/agv_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/thainguyen1233/ros2_ws2/build/agv_sim -- -j8 -l8
+[0.076s] Invoking command in '/home/thainguyen1233/ros2_ws2/build/agv_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/thainguyen1233/ros2_ws2/build/agv_sim
+[0.085s] -- Install configuration: ""
+[0.085s] -- Up-to-date: /home/thainguyen1233/ros2_ws2/install/agv_sim/share/agv_sim/launch
+[0.085s] -- Installing: /home/thainguyen1233/ros2_ws2/install/agv_sim/share/agv_sim/launch/gazebo.launch.py
+[0.086s] -- Up-to-date: /home/thainguyen1233/ros2_ws2/install/agv_sim/share/agv_sim/launch/display.launch.py
+[0.086s] -- Up-to-date: /home/thainguyen1233/ros2_ws2/install/agv_sim/share/agv_sim/urdf
+[0.086s] -- Installing: /home/thainguyen1233/ros2_ws2/install/agv_sim/share/agv_sim/urdf/robotomni.urdf
+[0.087s] -- Up-to-date: /home/thainguyen1233/ros2_ws2/install/agv_sim/share/agv_sim/urdf/robotomni.csv
+[0.087s] -- Up-to-date: /home/thainguyen1233/ros2_ws2/install/agv_sim/share/agv_sim/meshes
+[0.087s] -- Up-to-date: /home/thainguyen1233/ros2_ws2/install/agv_sim/share/agv_sim/meshes/base_link.STL
+[0.087s] -- Up-to-date: /home/thainguyen1233/ros2_ws2/install/agv_sim/share/agv_sim/meshes/banhxe1_Link.STL
+[0.088s] -- Up-to-date: /home/thainguyen1233/ros2_ws2/install/agv_sim/share/agv_sim/meshes/banhxe3_Link.STL
+[0.088s] -- Up-to-date: /home/thainguyen1233/ros2_ws2/install/agv_sim/share/agv_sim/meshes/banhxe2_Link.STL
+[0.088s] -- Up-to-date: /home/thainguyen1233/ros2_ws2/install/agv_sim/share/agv_sim/meshes/dexe_Link.STL
+[0.088s] -- Up-to-date: /home/thainguyen1233/ros2_ws2/install/agv_sim/share/agv_sim/meshes/banhxe4_Link.STL
+[0.088s] -- Up-to-date: /home/thainguyen1233/ros2_ws2/install/agv_sim/share/agv_sim/meshes/lidarsaul.STL
+[0.088s] -- Up-to-date: /home/thainguyen1233/ros2_ws2/install/agv_sim/share/agv_sim/meshes/lidartruocl.STL
+[0.088s] -- Up-to-date: /home/thainguyen1233/ros2_ws2/install/agv_sim/share/agv_sim/meshes/thanxe_Link.STL
+[0.089s] -- Up-to-date: /home/thainguyen1233/ros2_ws2/install/agv_sim/share/agv_sim/config
+[0.089s] -- Installing: /home/thainguyen1233/ros2_ws2/install/agv_sim/share/agv_sim/config/display.rviz
+[0.089s] -- Up-to-date: /home/thainguyen1233/ros2_ws2/install/agv_sim/share/agv_sim/worlds
+[0.090s] -- Up-to-date: /home/thainguyen1233/ros2_ws2/install/agv_sim/share/agv_sim/worlds/empty_mini.world
+[0.090s] -- Up-to-date: /home/thainguyen1233/ros2_ws2/install/agv_sim/share/ament_index/resource_index/package_run_dependencies/agv_sim
+[0.091s] -- Up-to-date: /home/thainguyen1233/ros2_ws2/install/agv_sim/share/ament_index/resource_index/parent_prefix_path/agv_sim
+[0.091s] -- Up-to-date: /home/thainguyen1233/ros2_ws2/install/agv_sim/share/agv_sim/environment/ament_prefix_path.sh
+[0.091s] -- Up-to-date: /home/thainguyen1233/ros2_ws2/install/agv_sim/share/agv_sim/environment/ament_prefix_path.dsv
+[0.092s] -- Up-to-date: /home/thainguyen1233/ros2_ws2/install/agv_sim/share/agv_sim/environment/path.sh
+[0.092s] -- Up-to-date: /home/thainguyen1233/ros2_ws2/install/agv_sim/share/agv_sim/environment/path.dsv
+[0.092s] -- Up-to-date: /home/thainguyen1233/ros2_ws2/install/agv_sim/share/agv_sim/local_setup.bash
+[0.092s] -- Up-to-date: /home/thainguyen1233/ros2_ws2/install/agv_sim/share/agv_sim/local_setup.sh
+[0.093s] -- Up-to-date: /home/thainguyen1233/ros2_ws2/install/agv_sim/share/agv_sim/local_setup.zsh
+[0.093s] -- Up-to-date: /home/thainguyen1233/ros2_ws2/install/agv_sim/share/agv_sim/local_setup.dsv
+[0.094s] -- Installing: /home/thainguyen1233/ros2_ws2/install/agv_sim/share/agv_sim/package.dsv
+[0.094s] -- Up-to-date: /home/thainguyen1233/ros2_ws2/install/agv_sim/share/ament_index/resource_index/packages/agv_sim
+[0.094s] -- Up-to-date: /home/thainguyen1233/ros2_ws2/install/agv_sim/share/agv_sim/cmake/agv_simConfig.cmake
+[0.094s] -- Up-to-date: /home/thainguyen1233/ros2_ws2/install/agv_sim/share/agv_sim/cmake/agv_simConfig-version.cmake
+[0.095s] -- Up-to-date: /home/thainguyen1233/ros2_ws2/install/agv_sim/share/agv_sim/package.xml
+[0.095s] Invoked command in '/home/thainguyen1233/ros2_ws2/build/agv_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/thainguyen1233/ros2_ws2/build/agv_sim

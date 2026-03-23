@@ -1,0 +1,6 @@
+Invoking command in '/home/thainguyen1233/ros2_ws2/build/agv_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/thainguyen1233/ros2_ws2/src/agv_sim -DCMAKE_INSTALL_PREFIX=/home/thainguyen1233/ros2_ws2/install/agv_sim
+Invoked command in '/home/thainguyen1233/ros2_ws2/build/agv_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/thainguyen1233/ros2_ws2/src/agv_sim -DCMAKE_INSTALL_PREFIX=/home/thainguyen1233/ros2_ws2/install/agv_sim
+Invoking command in '/home/thainguyen1233/ros2_ws2/build/agv_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thainguyen1233/ros2_ws2/build/agv_sim -- -j8 -l8
+Invoked command in '/home/thainguyen1233/ros2_ws2/build/agv_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thainguyen1233/ros2_ws2/build/agv_sim -- -j8 -l8
+Invoking command in '/home/thainguyen1233/ros2_ws2/build/agv_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/thainguyen1233/ros2_ws2/build/agv_sim
+Invoked command in '/home/thainguyen1233/ros2_ws2/build/agv_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/thainguyen1233/ros2_ws2/build/agv_sim

@@ -1,0 +1,512 @@
+
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="URDF">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="-8.57191768954824E-10 -0.000317402351265947 0.00624310442116382"
+        rpy="0 0 0" />
+      <mass
+        value="0.1" />
+      <inertia
+        ixx="3.21390607883172E-07"
+        ixy="9.7836623014883E-15"
+        ixz="-1.04072352403533E-14"
+        iyy="4.23855792975122E-07"
+        iyz="-5.87798168447698E-08"
+        izz="2.61421342170984E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://agv_sim/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://agv_sim/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="thanxe_Link">
+    <inertial>
+      <origin
+        xyz="-1.34173948340699E-09 -0.00471160202617647 0.00913027489544721"
+        rpy="0 0 0" />
+      <mass
+        value="0.05" />
+      <inertia
+        ixx="2.9987700128236E-07"
+        ixy="9.78366230720851E-15"
+        ixz="-1.04072352312484E-14"
+        iyy="3.43993310638055E-07"
+        iyz="-5.95274971269669E-08"
+        izz="1.62203888631105E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://agv_sim/meshes/thanxe_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://agv_sim/meshes/thanxe_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="thanxe_joint"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="thanxe_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="dexe_Link">
+    <inertial>
+      <origin
+        xyz="-6.93889390390723E-18 0.00745618052720307 0.00113553976172041"
+        rpy="0 0 0" />
+      <mass
+        value="0.03" />
+      <inertia
+        ixx="2.15136066008119E-08"
+        ixy="-4.9436306316123E-25"
+        ixz="4.83483938759972E-25"
+        iyy="7.98624823370676E-08"
+        iyz="7.47680282197207E-10"
+        izz="9.92174535398787E-08" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://agv_sim/meshes/dexe_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://agv_sim/meshes/dexe_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="dexe_joint"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="dexe_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="banhxe1_Link">
+    <inertial>
+      <origin
+        xyz="0.000871932450713722 -0.000871932450713681 6.93889390390723E-18"
+        rpy="0 0 0" />
+      <mass
+        value="0.000243965830582787" />
+      <inertia
+        ixx="3.30833181677862E-09"
+        ixy="-9.82694901086297E-10"
+        ixz="-1.50741852656873E-25"
+        iyy="3.30833181677862E-09"
+        iyz="2.4548909608371E-24"
+        izz="2.32563691569232E-09" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://agv_sim/meshes/banhxe1_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://agv_sim/meshes/banhxe1_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="banhxe1_joint"
+    type="continuous">
+    <origin
+      xyz="0.0132071067811865 -0.0132071067811866 0.00049999999999998"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="banhxe1_Link" />
+    <axis
+      xyz="0.707106781186548 -0.707106781186547 0" />
+  </joint>
+  <link
+    name="banhxe2_Link">
+    <inertial>
+      <origin
+        xyz="-0.000895834502252661 -0.000895834502252687 -3.46944695195361E-17"
+        rpy="0 0 0" />
+      <mass
+        value="0.000243965830582788" />
+      <inertia
+        ixx="3.30833181677862E-09"
+        ixy="9.82694901086296E-10"
+        ixz="9.96137263511454E-25"
+        iyy="3.30833181677861E-09"
+        iyz="-7.86518777193411E-25"
+        izz="2.32563691569232E-09" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://agv_sim/meshes/banhxe2_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://agv_sim/meshes/banhxe2_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="banhxe2_joint"
+    type="continuous">
+    <origin
+      xyz="0.0149748737341529 0.0149748737341529 0.000500000000000021"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="banhxe2_Link" />
+    <axis
+      xyz="0.707106781186546 0.707106781186549 0" />
+  </joint>
+  <link
+    name="banhxe3_Link">
+    <inertial>
+      <origin
+        xyz="0.000895834502252606 0.00089583450225272 -4.16333634234434E-17"
+        rpy="0 0 0" />
+      <mass
+        value="0.000243965830582787" />
+      <inertia
+        ixx="3.30833181677861E-09"
+        ixy="9.82694901086296E-10"
+        ixz="-4.28868964288834E-25"
+        iyy="3.30833181677862E-09"
+        iyz="3.86888942356593E-25"
+        izz="2.32563691569232E-09" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://agv_sim/meshes/banhxe3_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://agv_sim/meshes/banhxe3_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="banhxe3_joint"
+    type="continuous">
+    <origin
+      xyz="-0.0149748737341529 -0.0149748737341529 0.000500000000000035"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="banhxe3_Link" />
+    <axis
+      xyz="0.707106781186547 0.707106781186548 0" />
+  </joint>
+  <link
+    name="banhxe4_Link">
+    <inertial>
+      <origin
+        xyz="0.000895834502252592 -0.000895834502252731 -7.63278329429795E-17"
+        rpy="0 0 0" />
+      <mass
+        value="0.000243965830582787" />
+      <inertia
+        ixx="3.30833181677861E-09"
+        ixy="-9.82694901086294E-10"
+        ixz="-7.03610284915588E-25"
+        iyy="3.30833181677862E-09"
+        iyz="3.41505774479228E-24"
+        izz="2.32563691569232E-09" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://agv_sim/meshes/banhxe4_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://agv_sim/meshes/banhxe4_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="banhxe4_joint"
+    type="continuous">
+    <origin
+      xyz="-0.0149748737341529 0.014974873734153 0.000500000000000084"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="banhxe4_Link" />
+    <axis
+      xyz="-0.707106781186547 0.707106781186548 0" />
+  </joint>
+  <link
+    name="lidar_link">
+    <inertial>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <mass
+        value="0.001" />
+      <inertia
+        ixx="1E-08"
+        ixy="0"
+        ixz="0"
+        iyy="1E-08"
+        iyz="0"
+        izz="1E-08" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://agv_sim/meshes/lidartruocl.STL" scale="0.1 0.1 0.1" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.2 0.2 0.2 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://agv_sim/meshes/lidartruocl.STL" scale="0.1 0.1 0.1" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="lidar_joint"
+    type="fixed">
+    <origin
+      xyz="0 0 0.0402"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="lidar_link" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+  <gazebo reference="lidar_link">
+    <sensor type="ray" name="lidar_sensor">
+      <pose>0 0 0 0 0 0</pose>
+      <visualize>true</visualize>
+      <update_rate>10</update_rate>
+      <ray>
+        <scan>
+          <horizontal>
+            <samples>360</samples>
+            <resolution>1</resolution>
+            <min_angle>-3.14159</min_angle>
+            <max_angle>3.14159</max_angle>
+          </horizontal>
+        </scan>
+        <range>
+          <min>0.05</min>
+          <max>1.5</max>
+          <resolution>0.01</resolution>
+        </range>
+        <noise>
+          <type>gaussian</type>
+          <mean>0.0</mean>
+          <stddev>0.01</stddev>
+        </noise>
+      </ray>
+      <plugin name="gazebo_ros_ray_sensor" filename="libgazebo_ros_ray_sensor.so">
+        <ros>
+          <remapping>~/out:=scan</remapping>
+        </ros>
+        <output_type>sensor_msgs/LaserScan</output_type>
+        <frame_name>lidar_link</frame_name>
+      </plugin>
+    </sensor>
+  </gazebo>
+  <gazebo>
+    <plugin name="gazebo_ros_planar_move" filename="libgazebo_ros_planar_move.so">
+      <ros>
+        <remapping>cmd_vel:=cmd_vel</remapping>
+        <remapping>odom:=odom</remapping>
+      </ros>
+      <update_rate>100.0</update_rate>
+      <publish_rate>10.0</publish_rate>
+      <publish_odom>true</publish_odom>
+      <publish_odom_tf>true</publish_odom_tf>
+      <odometry_frame>odom</odometry_frame>
+      <robot_base_frame>base_link</robot_base_frame>
+      <covariance_x>0.0001</covariance_x>
+      <covariance_y>0.0001</covariance_y>
+      <covariance_yaw>0.01</covariance_yaw>
+    </plugin>
+    <plugin name="gazebo_ros_joint_state_publisher" filename="libgazebo_ros_joint_state_publisher.so">
+      <ros>
+        <remapping>joint_states:=joint_states</remapping>
+      </ros>
+      <update_rate>30</update_rate>
+      <joint_name>banhxe1_joint</joint_name>
+      <joint_name>banhxe2_joint</joint_name>
+      <joint_name>banhxe3_joint</joint_name>
+      <joint_name>banhxe4_joint</joint_name>
+    </plugin>
+  </gazebo>
+  
+  <gazebo reference="base_link">
+    <material>Gazebo/White</material>
+  </gazebo>
+  <gazebo reference="thanxe_Link">
+    <material>Gazebo/Orange</material>
+  </gazebo>
+  <gazebo reference="dexe_Link">
+    <material>Gazebo/SkyBlue</material>
+  </gazebo>
+  <gazebo reference="banhxe1_Link">
+    <material>Gazebo/Grey</material>
+    <mu1>0.0</mu1>
+    <mu2>0.0</mu2>
+  </gazebo>
+  <gazebo reference="banhxe2_Link">
+    <material>Gazebo/Grey</material>
+    <mu1>0.0</mu1>
+    <mu2>0.0</mu2>
+  </gazebo>
+  <gazebo reference="banhxe3_Link">
+    <material>Gazebo/Grey</material>
+    <mu1>0.0</mu1>
+    <mu2>0.0</mu2>
+  </gazebo>
+  <gazebo reference="banhxe4_Link">
+    <material>Gazebo/Grey</material>
+    <mu1>0.0</mu1>
+    <mu2>0.0</mu2>
+  </gazebo>
+  <gazebo reference="lidar_link">
+    <material>Gazebo/Red</material>
+  </gazebo>
+</robot>
